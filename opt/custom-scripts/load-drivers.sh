@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#! /bin/sh -e
 
 # Disable systemd-udev-settle
 systemctl disable systemd-udev-settle.service
@@ -45,5 +45,5 @@ do
 done
 
 echo ""
-echo "Drivers loaded. Reboot now and run 'wifi-setup.sh'." 
+echo "Drivers loaded. You can cross still run it again to cross check, then Reboot and run 'wifi-setup.sh'." 
 exit 0
