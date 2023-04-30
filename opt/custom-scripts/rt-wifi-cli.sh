@@ -1,4 +1,4 @@
-#! /bin/bash -e
+#! /bin/bash
 
 # Unblock wifi
 rfkill unblock wifi

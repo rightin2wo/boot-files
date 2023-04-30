@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#! /bin/sh
 
 # Check if script is being run with root privileges
 if [ "$(id -u)" != "0" ]; then
